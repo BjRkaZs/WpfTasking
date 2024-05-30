@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="WpfTasking.Pages.Task1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfTasking.Pages"
+             mc:Ignorable="d" 
+             d:DesignHeight="610" d:DesignWidth="1100">
+    <Grid>
+        <Border CornerRadius="10">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop Color="#F4BF59" Offset="0.3"/>
+                    <GradientStop Color="#A49473" Offset="1.1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <StackPanel>
+                <TextBlock Text="Task 1"
+                       FontSize="30"
+                       Margin="20"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>
