@@ -33,7 +33,7 @@
             </StackPanel>
 
             <StackPanel Grid.Row="1">
-                <Button Width="300"
+                <RadioButton Width="300"
                         Height="50"
                         Foreground="White"
                         Background="#282538"
@@ -42,7 +42,7 @@
                         x:Name="Task1Button" 
                         Click="Task1Button_Click" 
                         Content="Task1"/>
-                <Button Width="300"
+                <RadioButton Width="300"
                         Height="50"
                         Foreground="White"
                         Background="#282538"
@@ -51,7 +51,7 @@
                         x:Name="Task2Button" 
                         Click="Task2Button_Click" 
                         Content="Task2"/>
-                <Button Width="300"
+                <RadioButton Width="300"
                         Height="50"
                         Foreground="White"
                         Background="#282538"
@@ -61,7 +61,7 @@
                         Click="Task3Button_Click" 
                         Content="Task3"/>
                 
-                <Button Width="300"
+                <RadioButton Width="300"
                         Height="50"
                         Foreground="White"
                         Background="#282538"
