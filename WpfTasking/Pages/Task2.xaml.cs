@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,6 +33,7 @@ namespace WpfTasking.Pages
         {
             EmployeeIdBox.Text = "";
             positionBox.Text = "";
+            TextBox3.Text = "";
         }
     }
 }
